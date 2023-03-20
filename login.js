@@ -11,8 +11,8 @@ function tambah(){
    }
 
 function kurang(){ 
-      angka1=document.getElementById("a").value;
-      angka2=document.getElementById("b").value;
+      angka1=document.getElementById("angka1").value;
+      angka2=document.getElementById("angka2").value;
       hasil=angka1 - angka2;
       document.getElementById("hasil").value;
    }
